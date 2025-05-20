@@ -1,9 +1,32 @@
 .gallery img{
     width: 100%;
 }
-h4{
+h1,h3{
+   
+    text-align: center;
+    font-style: sans-serif;
+    padding: 5px;
+}
+.thor-bio h4{
+    text-align: center;
 font-family: Impact,fantasy;
 font-size: 25px;
 font-style: italic;
-color: crimson
+color: crimson;
+}
+.iron-man-bio  h4{
+font-family: Impact,fantasy;
+font-size: 25px;
+font-style: italic;
+color: #00fefe;
+background-color: black;
+text-shadow: 0 0 10px #00E5ff, 0 0 20px #00FFFF;
+text-align: center;
+}
+
+.hulk-bio h4{
+   font-family: Impact,fantasy;
+font-size: 25px;
+font-style: italic;
+color: #008000; 
 }
