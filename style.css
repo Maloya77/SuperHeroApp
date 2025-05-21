@@ -2,10 +2,8 @@
     width: 100%;
 }
 h1,h3{
-   
-    text-align: center;
-    font-style: sans-serif;
-    padding: 5px;
+   color: snow;
+    
 }
 .thor-bio h4{
     text-align: center;
@@ -29,4 +27,80 @@ text-align: center;
 font-size: 25px;
 font-style: italic;
 color: #008000; 
+ text-align: center;
+}
+.hawkeye-bio h4{
+    font-family: Impact,fantasy;
+font-size: 25px;
+font-style: italic;
+color: #a060ac;  
+ text-align: center;
+}
+.cap-bio h4{
+    font-family: Impact,fantasy;
+font-size: 25px;
+font-style: italic;
+color: #004d7c; 
+ text-align: center; 
+}
+.widow-bio h4{
+    font-family: Impact,fantasy;
+font-size: 25px;
+font-style: italic;
+color: red;
+ text-align: center; 
+}
+p{
+    color: whitesmoke;
+}
+body,h1,h3{
+    background-color: black;
+    text-align: center;
+    font-style: sans-serif;
+    padding: 5px;
+}
+.sidebar {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.3s;
+  z-index: 1000; /* stays on top */
+  padding-top: 20px;
+  color: white;
+}
+.sidebar.active {
+  width: 200px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: red;
+  color: white;
+}
+
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 1100;
+}
+
+.content {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+}
+
+.content.shift {
+  margin-left: 200px;
 }
